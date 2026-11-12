@@ -1,0 +1,6 @@
+# Transcription engine; pip also installs its transitive dependencies.
+faster-whisper==1.2.1
+
+# PyAV 19 removed an argument still used by faster-whisper 1.2.1.
+# Keep the decoder version verified with this project.
+av==16.1.0
